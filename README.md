@@ -20,6 +20,6 @@ Once you have the link you can
 
 Provide instructions and examples for use. Include screenshots as needed.
 
-Once the app has been opened, you will be presented with a homepage with a button. After clicking the button you wil be taken to the notes page, where you can write and save your notes. fill out the title and text body fields, click the save button, and now you have a new note.
+Once the app has been opened, you will be presented with a homepage with a "Get Started" button. After clicking the button you will be taken to the notes page, where you can write and save your notes. fill out the title and text body fields, click the save button, and now you have a new note.
 [filling out a note](./img/ss1.png)
 [after saving the note](./img/ss2.png)
