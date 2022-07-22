@@ -2,12 +2,7 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+It is important to have a place where you can write down important information you would rather not forget. Note Taker is a tool to write and save notes to come back to later on. There is a simple homepage which takes you to the note taking section of the app. At that page you can write and save your notes, so you won't have to worry about forgetting them. Coding app taught me the importance of writing good routes.
 
 ## Table of Contents
 
@@ -18,14 +13,13 @@ Provide a short description explaining the what, why, and how of your project. U
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+In order to use this app you must have access to the deployed Heroku link.
+Once you have the link you can
 
 ## Usage
 
 Provide instructions and examples for use. Include screenshots as needed.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+Once the app has been opened, you will be presented with a homepage with a button. After clicking the button you wil be taken to the notes page, where you can write and save your notes. fill out the title and text body fields, click the save button, and now you have a new note.
+[filling out a note](./img/ss1.png)
+[after saving the note](./img/ss2.png)
