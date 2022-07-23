@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
-
+const apiRoutes = require('./routes/apiroutes');
+const htmlRoutes = require('./routes/htmlroutes');
 const PORT = process.env.PORT || 3001;
 
 const app = express();
@@ -13,8 +14,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true })); //this is built in express to look at body of post request
 app.use(express.static('public'));
 
-let apiRoutes = require('./routes/apiroutes');
-let htmlRoutes = require('./routes/htmlroutes');
+
 
 app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
