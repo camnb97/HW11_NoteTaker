@@ -13,8 +13,11 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true })); //this is built in express to look at body of post request
 app.use(express.static('public'));
 
-app.use('/api', require('./routes/apiroutes'));
-app.use('/', require('./routes/htmlroutes'));
+let apiRoutes = require('./routes/apiroutes');
+let htmlRoutes = require('./routes/htmlroutes');
+
+app.use('/api', apiRoutes);
+app.use('/', htmlRoutes);
 
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT} 🚀`)
